@@ -1,5 +1,7 @@
 # picturepaste
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JoeBiellik/picturepaste.svg)](https://greenkeeper.io/)
+
 [![License](https://img.shields.io/github/license/JoeBiellik/picturepaste.svg)](LICENSE.md)
 [![Release Version](https://img.shields.io/github/release/JoeBiellik/picturepaste.svg)](https://github.com/JoeBiellik/picturepaste/releases)
 [![Dependencies](https://img.shields.io/david/JoeBiellik/picturepaste.svg)](https://david-dm.org/JoeBiellik/picturepaste)
