@@ -1,0 +1,106 @@
+body {
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media(min-width: 1800px) {
+	.container {
+		min-width: 1500px;
+	}
+}
+@media(min-width: 2400px) {
+	.container {
+		min-width: 1800px;
+	}
+}
+.display-3 {
+	font-size: 5.5rem;
+}
+@media(max-width: 768px) {
+	.display-3 {
+	font-size: 4.5rem;
+	}
+}
+@media(max-width: 576px) {
+	.display-3 {
+	font-size: 3.5rem;
+	}
+}
+
+h1 {
+	margin: 2rem 0 4rem;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+form {
+	margin: 3rem 0;
+	padding: 2rem;
+	outline: 2px dashed #92b0b3;
+	outline-offset: -10px;
+	transition: outline-offset .15s ease-in-out, background-color .15s linear;
+}
+form svg.octicon {
+	width: 128px;
+	height: 128px;
+	fill: #0069d9;
+}
+form input {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+form input + label {
+	font-size: 1.3rem;
+}
+form input + label .btn {
+	font-size: 1.3rem;
+	vertical-align: 0;
+}
+form label {
+	font-size: 1.1rem;
+	vertical-align: -2px;
+}
+
+form.is-dragover {
+	outline-offset: -20px;
+	outline-color: #c8dadf;
+	background-color: #fff;
+}
+
+form.is-uploading {
+	outline: none;
+	background-color: #fff;
+}
+form.is-success {
+	outline: none;
+	background-color: #fff;
+}
+
+form.is-uploading section#upload,
+form.is-error section#upload {
+	display: none;
+}
+
+form section#uploading {
+	display: none;
+}
+
+form.is-uploading section#uploading,
+form.is-error section#uploading {
+	display: block;
+}
+
+.progress-bar-striped {
+	background-size: 3rem 3rem;
+}
+
+@keyframes progress-bar-stripes {
+	from {
+	background-position: 3rem 0;
+	}
+}
