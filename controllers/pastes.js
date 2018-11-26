@@ -45,11 +45,11 @@ module.exports = {
 			ctx.request.body.expire = config.expiresDefault;
 		}
 
-		if (Object.keys(ctx.request.body.files).length < 1) {
+		if (Object.keys(ctx.request.files).length < 1) {
 			ctx.throw(400, 'File not provided');
 		}
 
-		let file = ctx.request.body.files[Object.keys(ctx.request.body.files)[0]]; // First key
+		let file = ctx.request.files[Object.keys(ctx.request.files)[0]]; // First key
 
 		if (Object.prototype.toString.call(file) === '[object Array]') {
 			file = file[0]; // First file

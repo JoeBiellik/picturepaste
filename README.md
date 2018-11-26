@@ -4,13 +4,13 @@
 [![Release Version](https://img.shields.io/github/release/JoeBiellik/picturepaste.svg)](https://github.com/JoeBiellik/picturepaste/releases)
 [![Dependencies](https://img.shields.io/david/JoeBiellik/picturepaste.svg)](https://david-dm.org/JoeBiellik/picturepaste)
 
-> Simple [Node.js](https://nodejs.org/) image pastebin built with [Koa](http://koajs.com/), [MongoDB](https://www.mongodb.org/), [Pug](https://pugjs.org/) and [Bootstrap](https://getbootstrap.com/).
+> Simple [Node.js](https://nodejs.org/) image pastebin built with [Koa](https://koajs.com/), [MongoDB](https://www.mongodb.org/), [Pug](https://pugjs.org/) and [Bootstrap](https://getbootstrap.com/).
 
 Try it out at [paste.pictures](https://paste.pictures/)
 
 ## Features
 
-* Clean code thanks to ES7 async/await and [Koa](http://koajs.com/)
+* Clean code thanks to ES7 async/await and [Koa](https://koajs.com/)
 * Short URLs via [shortid](https://github.com/dylang/shortid), e.g. `NyQO9puMe`
 * Full support for CLI requests with [curl](https://curl.haxx.se/) etc
 * Automatic and configurable paste expiry
